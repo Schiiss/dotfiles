@@ -39,3 +39,12 @@ inoremap <silent><expr> <TAB>
 
 "Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+
+" == TreeSitter Config == "
+lua <<EOF
+  require'nvim-treesitter.configs'.setup {
+    highlight = {
+      enable = true
+    },
+  }
+EOF
