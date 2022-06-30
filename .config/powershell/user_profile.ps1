@@ -1,6 +1,6 @@
 # set PowerShell to UTF-8
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
-
+Import-Module z
 Import-Module posh-git
 Import-Module oh-my-posh
 $omp_config = Join-Path $PSScriptRoot ".\conner.omp.json"
