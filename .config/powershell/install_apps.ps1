@@ -13,3 +13,4 @@ winget install Microsoft.VisualStudioCode
 winget install 7zip.7zip
 winget install Git.Git
 winget install GitHub.cli
+winget install Microsoft.PowerToys
