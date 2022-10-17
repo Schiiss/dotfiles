@@ -3,8 +3,8 @@
 Import-Module z
 Import-Module posh-git
 Import-Module oh-my-posh
-$omp_config = Join-Path $PSScriptRoot ".\conner.omp.json"
-oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+Set-PoshPrompt -Theme craver
+oh-my-posh --init --shell pwsh | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 
