@@ -8,6 +8,7 @@ winget install JanDeDobbeleer.OhMyPosh
 
 # IDE
 winget install Microsoft.VisualStudioCode.Insiders
+winget install Microsoft.VisualStudioCode
 
 # Miscellaneous
 winget install 7zip.7zip
