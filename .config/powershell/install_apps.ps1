@@ -7,7 +7,7 @@ winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
 
 # IDE
-winget install Microsoft.VisualStudioCode
+winget install Microsoft.VisualStudioCode.Insiders
 
 # Miscellaneous
 winget install 7zip.7zip
