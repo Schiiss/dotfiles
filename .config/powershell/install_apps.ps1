@@ -15,3 +15,14 @@ winget install 7zip.7zip
 winget install Git.Git
 winget install GitHub.cli
 winget install Microsoft.PowerToys
+winget install gerardog.gsudo
+winget install Neovim.Neovim
+winget install Notion.Notion
+
+
+iwr -useb get.scoop.sh | iex 
+Install-Module posh-git -scope CurrentUser -Force
+Install-Module -Name Terminal-Icons -Repository PSGallery -Force 
+Install-Module -Name z -Force
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Install-Module -Name PSFzf -Scope CurrentUser -Force 
