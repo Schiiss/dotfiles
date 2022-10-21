@@ -19,6 +19,7 @@ winget install gerardog.gsudo
 winget install Neovim.Neovim
 winget install Notion.Notion
 winget install JGraph.Draw
+winget install Greenshot.Greenshot
 
 
 iwr -useb get.scoop.sh | iex 
