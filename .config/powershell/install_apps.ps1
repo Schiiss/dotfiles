@@ -18,6 +18,7 @@ winget install Microsoft.PowerToys
 winget install gerardog.gsudo
 winget install Neovim.Neovim
 winget install Notion.Notion
+winget install JGraph.Draw
 
 
 iwr -useb get.scoop.sh | iex 
