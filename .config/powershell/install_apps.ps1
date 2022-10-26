@@ -20,6 +20,7 @@ winget install Neovim.Neovim
 winget install Notion.Notion
 winget install JGraph.Draw
 winget install Greenshot.Greenshot
+winget install Docker.DockerDesktop
 
 
 iwr -useb get.scoop.sh | iex 
