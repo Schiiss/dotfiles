@@ -5,6 +5,7 @@ winget install Google.Chrome
 winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
+winget install Microsoft.AzureCLI
 
 # IDE
 winget install Microsoft.VisualStudioCode.Insiders
