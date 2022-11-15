@@ -22,6 +22,7 @@ winget install Notion.Notion
 winget install JGraph.Draw
 winget install Greenshot.Greenshot
 winget install Docker.DockerDesktop
+winget install Postman.Postman
 
 
 iwr -useb get.scoop.sh | iex 
