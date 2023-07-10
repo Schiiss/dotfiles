@@ -2,11 +2,8 @@
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 Import-Module z
 Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme craver
-oh-my-posh --init --shell pwsh | Invoke-Expression
-
 Import-Module -Name Terminal-Icons
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\marcduiker.omp.json" | Invoke-Expression
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
