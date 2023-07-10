@@ -39,8 +39,8 @@
             "colorScheme": "One Half Dark (modded)",
             "font": 
             {
-                "face": "Hack NFM",
-                "size": 11
+                "face": "Hack Nerd Font",
+                "size": 9.0
             },
             "opacity": 85,
             "useAcrylic": true
@@ -305,5 +305,6 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "themes": []
 }

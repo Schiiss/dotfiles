@@ -24,8 +24,6 @@ winget install Greenshot.Greenshot
 winget install Docker.DockerDesktop
 winget install Postman.Postman
 
-
-iwr -useb get.scoop.sh | iex 
 Install-Module posh-git -scope CurrentUser -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force 
 Install-Module -Name z -Force
